@@ -1,0 +1,519 @@
+{
+  "n_responses": 864,
+  "n_distinct_cases": 48,
+  "model_counts": {
+    "gpt_oss_120b_groq_anchor": 288,
+    "llama_3_3_70b_groq": 288,
+    "gemini_3_flash_google_ai_studio": 288
+  },
+  "summary": {
+    "cnli|gemini_3_flash_google_ai_studio|absent|conditional": {
+      "n": 15,
+      "unauthorized": 13,
+      "invalid": 0,
+      "reference_agreement": 2,
+      "reference_concordant_unauthorized": 6,
+      "faulty_approval": 2
+    },
+    "cnli|gemini_3_flash_google_ai_studio|absent|presupposed": {
+      "n": 15,
+      "unauthorized": 15,
+      "invalid": 0,
+      "reference_agreement": 0,
+      "reference_concordant_unauthorized": 7,
+      "faulty_approval": 3
+    },
+    "cnli|gemini_3_flash_google_ai_studio|present|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 8,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|present|presupposed": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 8,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|substitution|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 15,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|substitution|presupposed": {
+      "n": 15,
+      "unauthorized": 10,
+      "invalid": 0,
+      "reference_agreement": 5,
+      "reference_concordant_unauthorized": 5,
+      "faulty_approval": 1
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 15,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent|presupposed": {
+      "n": 15,
+      "unauthorized": 4,
+      "invalid": 0,
+      "reference_agreement": 11,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 2
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 10,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|presupposed": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 10,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|conditional": {
+      "n": 15,
+      "unauthorized": 3,
+      "invalid": 0,
+      "reference_agreement": 12,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 1
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|presupposed": {
+      "n": 15,
+      "unauthorized": 5,
+      "invalid": 0,
+      "reference_agreement": 10,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 3
+    },
+    "cnli|llama_3_3_70b_groq|absent|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 15,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|llama_3_3_70b_groq|absent|presupposed": {
+      "n": 15,
+      "unauthorized": 1,
+      "invalid": 0,
+      "reference_agreement": 14,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 0
+    },
+    "cnli|llama_3_3_70b_groq|present|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 11,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|llama_3_3_70b_groq|present|presupposed": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 11,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|llama_3_3_70b_groq|substitution|conditional": {
+      "n": 15,
+      "unauthorized": 0,
+      "invalid": 2,
+      "reference_agreement": 13,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "cnli|llama_3_3_70b_groq|substitution|presupposed": {
+      "n": 15,
+      "unauthorized": 1,
+      "invalid": 2,
+      "reference_agreement": 12,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|absent|conditional": {
+      "n": 33,
+      "unauthorized": 23,
+      "invalid": 0,
+      "reference_agreement": 10,
+      "reference_concordant_unauthorized": 13,
+      "faulty_approval": 1
+    },
+    "feverous|gemini_3_flash_google_ai_studio|absent|presupposed": {
+      "n": 33,
+      "unauthorized": 30,
+      "invalid": 1,
+      "reference_agreement": 2,
+      "reference_concordant_unauthorized": 16,
+      "faulty_approval": 4
+    },
+    "feverous|gemini_3_flash_google_ai_studio|present|conditional": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 26,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|present|presupposed": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 25,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|substitution|conditional": {
+      "n": 33,
+      "unauthorized": 5,
+      "invalid": 0,
+      "reference_agreement": 28,
+      "reference_concordant_unauthorized": 3,
+      "faulty_approval": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|substitution|presupposed": {
+      "n": 33,
+      "unauthorized": 13,
+      "invalid": 0,
+      "reference_agreement": 20,
+      "reference_concordant_unauthorized": 8,
+      "faulty_approval": 1
+    },
+    "feverous|gpt_oss_120b_groq_anchor|absent|conditional": {
+      "n": 33,
+      "unauthorized": 1,
+      "invalid": 0,
+      "reference_agreement": 32,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|absent|presupposed": {
+      "n": 33,
+      "unauthorized": 14,
+      "invalid": 1,
+      "reference_agreement": 18,
+      "reference_concordant_unauthorized": 6,
+      "faulty_approval": 2
+    },
+    "feverous|gpt_oss_120b_groq_anchor|present|conditional": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 26,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|present|presupposed": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 26,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|substitution|conditional": {
+      "n": 33,
+      "unauthorized": 2,
+      "invalid": 0,
+      "reference_agreement": 31,
+      "reference_concordant_unauthorized": 2,
+      "faulty_approval": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|substitution|presupposed": {
+      "n": 33,
+      "unauthorized": 13,
+      "invalid": 0,
+      "reference_agreement": 20,
+      "reference_concordant_unauthorized": 7,
+      "faulty_approval": 2
+    },
+    "feverous|llama_3_3_70b_groq|absent|conditional": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 1,
+      "reference_agreement": 32,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|llama_3_3_70b_groq|absent|presupposed": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 33,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|llama_3_3_70b_groq|present|conditional": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 16,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|llama_3_3_70b_groq|present|presupposed": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 0,
+      "reference_agreement": 19,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|llama_3_3_70b_groq|substitution|conditional": {
+      "n": 33,
+      "unauthorized": 0,
+      "invalid": 1,
+      "reference_agreement": 32,
+      "reference_concordant_unauthorized": 0,
+      "faulty_approval": 0
+    },
+    "feverous|llama_3_3_70b_groq|substitution|presupposed": {
+      "n": 33,
+      "unauthorized": 2,
+      "invalid": 1,
+      "reference_agreement": 30,
+      "reference_concordant_unauthorized": 1,
+      "faulty_approval": 1
+    }
+  },
+  "paired_wording_contrasts": {
+    "absent|gemini_3_flash_google_ai_studio": {
+      "n_cases": 48,
+      "observed": 0.1875,
+      "ci95": [
+        0.0625,
+        0.333333
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.133333,
+          "ci95": [
+            0.0,
+            0.333333
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.212121,
+          "ci95": [
+            0.030303,
+            0.393939
+          ]
+        }
+      }
+    },
+    "absent|gpt_oss_120b_groq_anchor": {
+      "n_cases": 48,
+      "observed": 0.354167,
+      "ci95": [
+        0.229167,
+        0.5
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.266667,
+          "ci95": [
+            0.066667,
+            0.533333
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.393939,
+          "ci95": [
+            0.242424,
+            0.575758
+          ]
+        }
+      }
+    },
+    "absent|llama_3_3_70b_groq": {
+      "n_cases": 48,
+      "observed": 0.020833,
+      "ci95": [
+        0.0,
+        0.0625
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.066667,
+          "ci95": [
+            0.0,
+            0.2
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "substitution|gemini_3_flash_google_ai_studio": {
+      "n_cases": 48,
+      "observed": 0.375,
+      "ci95": [
+        0.25,
+        0.5
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.666667,
+          "ci95": [
+            0.4,
+            0.866667
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.242424,
+          "ci95": [
+            0.090909,
+            0.393939
+          ]
+        }
+      }
+    },
+    "substitution|gpt_oss_120b_groq_anchor": {
+      "n_cases": 48,
+      "observed": 0.270833,
+      "ci95": [
+        0.125,
+        0.416667
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.133333,
+          "ci95": [
+            -0.2,
+            0.466667
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.333333,
+          "ci95": [
+            0.181818,
+            0.484848
+          ]
+        }
+      }
+    },
+    "substitution|llama_3_3_70b_groq": {
+      "n_cases": 48,
+      "observed": 0.0625,
+      "ci95": [
+        0.0,
+        0.145833
+      ],
+      "by_domain": {
+        "cnli": {
+          "n_cases": 15,
+          "observed": 0.066667,
+          "ci95": [
+            0.0,
+            0.2
+          ]
+        },
+        "feverous": {
+          "n_cases": 33,
+          "observed": 0.060606,
+          "ci95": [
+            0.0,
+            0.151515
+          ]
+        }
+      }
+    }
+  },
+  "difference_in_differences": {
+    "absent|gemini_3_flash_google_ai_studio_minus_anchor": {
+      "n_cases": 48,
+      "observed": -0.166667,
+      "ci95": [
+        -0.354167,
+        0.020833
+      ]
+    },
+    "absent|llama_3_3_70b_groq_minus_anchor": {
+      "n_cases": 48,
+      "observed": -0.333333,
+      "ci95": [
+        -0.479167,
+        -0.1875
+      ]
+    },
+    "substitution|gemini_3_flash_google_ai_studio_minus_anchor": {
+      "n_cases": 48,
+      "observed": 0.104167,
+      "ci95": [
+        -0.104167,
+        0.3125
+      ]
+    },
+    "substitution|llama_3_3_70b_groq_minus_anchor": {
+      "n_cases": 48,
+      "observed": -0.208333,
+      "ci95": [
+        -0.354167,
+        -0.0625
+      ]
+    }
+  },
+  "reported_cost_usd_by_model": {
+    "gpt_oss_120b_groq_anchor": 0.09310950000000001,
+    "llama_3_3_70b_groq": 0.11245634000000004,
+    "gemini_3_flash_google_ai_studio": 0.19429799999999992
+  },
+  "reported_providers": {
+    "gpt_oss_120b_groq_anchor": {
+      "Groq": 288
+    },
+    "llama_3_3_70b_groq": {
+      "Groq": 288
+    },
+    "gemini_3_flash_google_ai_studio": {
+      "Google AI Studio": 288
+    }
+  },
+  "distinct_reported_system_fingerprints": {
+    "gpt_oss_120b_groq_anchor": 36,
+    "llama_3_3_70b_groq": 3
+  },
+  "caveats": [
+    "Exploratory cross-model transfer on a subset previously observed with the anchor; not new heldout cases.",
+    "CIs are case-cluster bootstrap within domain, with 15 CNLI and 33 FEVEROUS cases.",
+    "Unauthorized = decisive in missing-trusted-source regimes, not necessarily incorrect underlying verdict.",
+    "INVALID schema responses remain separate; do not silently classify them as abstentions or approvals.",
+    "Nonempty evidence identifiers are not sufficient to infer fabricated source support; manually review rationales.",
+    "Provider pinning does not control hidden decoding or serving differences."
+  ]
+}

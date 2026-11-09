@@ -1,0 +1,67 @@
+{
+  "complete": true,
+  "n_collected": 144,
+  "n_expected": 144,
+  "missing": 0,
+  "by_arm": {
+    "CONDITIONAL/ABSENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "DEFER": 36
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed_or_transport": 0
+    },
+    "CONDITIONAL/PRESENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "APPROVE": 18,
+        "REJECT": 18
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed_or_transport": 0
+    },
+    "PROMISE/ABSENT": {
+      "n": 36,
+      "correct": 15,
+      "verdicts": {
+        "DEFER": 15,
+        "APPROVE": 18,
+        "REJECT": 3
+      },
+      "unsupported_approvals": 18,
+      "unsupported_rejections": 3,
+      "unsupported_decisive": 21,
+      "malformed_or_transport": 0
+    },
+    "PROMISE/PRESENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "APPROVE": 18,
+        "REJECT": 18
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed_or_transport": 0
+    }
+  },
+  "primary": {
+    "estimand": "absent-record unsupported decisive rate, PROMISE minus CONDITIONAL",
+    "paired_case_difference": 0.583333,
+    "cluster_bootstrap_95_interval_descriptive": [
+      0.388889,
+      0.777778
+    ],
+    "cluster_unit": "12 case identities; repeated model calls are not independent cases",
+    "caution": "Small diagnostic pilot; no mechanistic identification or equivalence test. Degenerate intervals are not guarantees."
+  },
+  "scoring_note": "Both absent-record APPROVE and REJECT are unsupported; malformed outputs scored separately. No model explanations treated as internal reasoning."
+}

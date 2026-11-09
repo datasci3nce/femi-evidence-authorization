@@ -1,0 +1,66 @@
+{
+  "n": 144,
+  "source_manifest_sha256": "abd540095c522f40ad0247062567a5e7c3cce6412857a29f131e99377b0ac379",
+  "replication_manifest_sha256": "951ab461ad20be7f675c2136fc9e4373155f055644f99597f3efb6c76bc89aa9",
+  "fixed_provider": "groq",
+  "by_arm": {
+    "CONDITIONAL/ABSENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "DEFER": 36
+      },
+      "unsupported_approve": 0,
+      "unsupported_reject": 0,
+      "unsupported_decisive": 0,
+      "format_failures": 0
+    },
+    "CONDITIONAL/PRESENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "APPROVE": 18,
+        "REJECT": 18
+      },
+      "unsupported_approve": 0,
+      "unsupported_reject": 0,
+      "unsupported_decisive": 0,
+      "format_failures": 0
+    },
+    "PROMISE/ABSENT": {
+      "n": 36,
+      "correct": 27,
+      "verdicts": {
+        "DEFER": 27,
+        "REJECT": 1,
+        "APPROVE": 8
+      },
+      "unsupported_approve": 8,
+      "unsupported_reject": 1,
+      "unsupported_decisive": 9,
+      "format_failures": 0
+    },
+    "PROMISE/PRESENT": {
+      "n": 36,
+      "correct": 36,
+      "verdicts": {
+        "APPROVE": 18,
+        "REJECT": 18
+      },
+      "unsupported_approve": 0,
+      "unsupported_reject": 0,
+      "unsupported_decisive": 0,
+      "format_failures": 0
+    }
+  },
+  "primary": {
+    "case_paired_difference": 0.25,
+    "case_cluster_bootstrap_95pct_descriptive": [
+      0.08333333333333333,
+      0.4444444444444444
+    ],
+    "cluster_count": 12,
+    "original_FEMI2_difference": 0.5833333333333334
+  },
+  "interpretation": "Causal estimate of frozen prompt-sentence contrast in fixed-provider test environment, conditional on retained prompts; not internal mechanism or external preregistration."
+}

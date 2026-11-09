@@ -1,0 +1,52 @@
+[
+  {
+    "archive": "FEMI1_LIVE_RESULTS.zip",
+    "sha256": "eff6dbb490e63949269da459d6505fe4e4250661204f723d845773acb95729d6",
+    "bytes": 209181
+  },
+  {
+    "archive": "FEMI1_Independent_Review.zip",
+    "sha256": "a25d4f438f905b7d42edeaf57bb7137b8c2725faecd2349c282a87eb71d7e372",
+    "bytes": 3564
+  },
+  {
+    "archive": "FEMI2_LIVE_RESULTS.zip",
+    "sha256": "54d526c7e33e13c6ea616469286fcb42333aee0541d359d7882e5b8673962f53",
+    "bytes": 62116
+  },
+  {
+    "archive": "FEMI2R_LIVE_RESULTS.zip",
+    "sha256": "d4757e9bdfebf636131bc964d589c044376c2e0042521010c6e2fdc2a076628f",
+    "bytes": 100866
+  },
+  {
+    "archive": "FEMI3A_LIVE_RESULTS.zip",
+    "sha256": "12b5ab32b04f791a5f6da6c926a23b451c78ac4615109f4373570f3fd1c7ed0b",
+    "bytes": 101286
+  },
+  {
+    "archive": "FEMI4_LIVE_RESULTS.zip",
+    "sha256": "6653b049625988c65b3787620593cbe59f4ae8b57a96cce5c6536fb7db0ae9d9",
+    "bytes": 357299
+  },
+  {
+    "archive": "FEMI_TRANSFER_BOTH_RESULTS.zip",
+    "sha256": "eb9e2d99ad0095a867053ae1fd28ac56cb3306ecf22777eb7a6d2264219b53ee",
+    "bytes": 891660
+  },
+  {
+    "archive": "FEMI_CROSS_MODEL_V2_RESULTS.zip",
+    "sha256": "2b885a86aa9a9e711572942ade659000ce991d1cdff66a2475a81c92014397ed",
+    "bytes": 633653
+  },
+  {
+    "archive": "FEMI_CAUSAL_SOURCE_JEV_RESULTS.zip",
+    "sha256": "56e2d36c54bce3f8e1ce635e9663e783c0bb14eb424fb23f6f80dc7ef24a1d93",
+    "bytes": 400119
+  },
+  {
+    "archive": "D1_SOURCE_FAITHFULNESS_V2_RESULTS.zip",
+    "sha256": "2cf55468604f795d26fd530c7e4698f4f156125443b0372417cde16b6eb454b3",
+    "bytes": 279451
+  }
+]

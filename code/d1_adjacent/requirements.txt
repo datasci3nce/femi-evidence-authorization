@@ -1,0 +1,4 @@
+# Local GPU experiment. Colab already provides torch; retain its CUDA-enabled build.
+transformers>=5.14
+huggingface_hub>=0.35
+pillow

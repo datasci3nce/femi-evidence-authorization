@@ -1,0 +1,195 @@
+{
+  "verified_complete": true,
+  "n_cases": 24,
+  "n_responses": 288,
+  "model": "openai/gpt-oss-120b",
+  "intended_provider": "groq",
+  "observed_providers": {
+    "Groq": 288
+  },
+  "by_arm": {
+    "NEUTRAL/ABSENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "DEFER": 48
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    },
+    "NEUTRAL/PRESENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "REJECT": 24,
+        "APPROVE": 24
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    },
+    "POSSIBILITY/ABSENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "DEFER": 48
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    },
+    "POSSIBILITY/PRESENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "APPROVE": 24,
+        "REJECT": 24
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    },
+    "PROMISE/ABSENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "DEFER": 48
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    },
+    "PROMISE/PRESENT": {
+      "n": 48,
+      "correct": 48,
+      "verdicts": {
+        "REJECT": 24,
+        "APPROVE": 24
+      },
+      "unsupported_approvals": 0,
+      "unsupported_rejections": 0,
+      "unsupported_decisive": 0,
+      "malformed": 0,
+      "nonempty_citation_in_absent": 0
+    }
+  },
+  "primary": {
+    "difference": 0.0,
+    "descriptive_stratified_case_bootstrap_95_interval": [
+      0.0,
+      0.0
+    ],
+    "case_differences": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "secondary": {
+    "PROMISE-NEUTRAL": {
+      "difference": 0.0,
+      "descriptive_stratified_case_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "case_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "POSSIBILITY-NEUTRAL": {
+      "difference": 0.0,
+      "descriptive_stratified_case_bootstrap_95_interval": [
+        0.0,
+        0.0
+      ],
+      "case_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "cautions": [
+    "This is a locally prespecified diagnostic replication, not external preregistration.",
+    "The tested intervention changes a lexical will/may expectation, not an internal model mechanism.",
+    "Twelve cases would not constitute independent evidence if transformed into repeated templates; see frozen diversity audit.",
+    "Bootstrap is descriptive over 24 cases within four dataset families; not a population-generalization interval.",
+    "A cited field or explanation is not a faithful causal trace; manual source-grounding audit is needed."
+  ]
+}

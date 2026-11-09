@@ -1,0 +1,12 @@
+{
+  "study": "FEMI-1",
+  "offline_executed_cases": 32,
+  "verified_clean": 8,
+  "verified_invalid": 24,
+  "planned_main_llm_calls": 480,
+  "planned_negative_controls": 8,
+  "live_calls_made_in_this_packet": 0,
+  "live_response_results_present": false,
+  "model_effect_estimates": null,
+  "note": "Execution manifests are frozen locally. External preregistration and user-supplied OpenRouter API key required for live run."
+}

@@ -1,0 +1,5 @@
+# Core analysis and offline tests; individual studies have their own requirements.
+pytest>=8
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11

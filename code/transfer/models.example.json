@@ -1,0 +1,7 @@
+{
+  "models": [
+    {"name":"gpt_oss_120b_groq_anchor", "model_id":"openai/gpt-oss-120b", "provider":{"order":["Groq"],"allow_fallbacks":false}},
+    {"name":"llama_3_3_70b", "model_id":"meta-llama/llama-3.3-70b-instruct"},
+    {"name":"gemini_3_flash_preview", "model_id":"google/gemini-3-flash-preview"}
+  ]
+}

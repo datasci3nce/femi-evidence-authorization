@@ -1,0 +1,735 @@
+{
+  "absent_evidence_controls": {
+    "deferred": 4,
+    "trials": [
+      {
+        "category": "APPROVE",
+        "correct_decisive": 0,
+        "defer": 0,
+        "parse_error": null,
+        "trial_id": "iris_101_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "DEFER",
+        "correct_decisive": 0,
+        "defer": 1,
+        "parse_error": null,
+        "trial_id": "iris_103_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "DEFER",
+        "correct_decisive": 0,
+        "defer": 1,
+        "parse_error": null,
+        "trial_id": "iris_107_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "APPROVE",
+        "correct_decisive": 0,
+        "defer": 0,
+        "parse_error": null,
+        "trial_id": "iris_109_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "DEFER",
+        "correct_decisive": 0,
+        "defer": 1,
+        "parse_error": null,
+        "trial_id": "wine_101_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "APPROVE",
+        "correct_decisive": 0,
+        "defer": 0,
+        "parse_error": null,
+        "trial_id": "wine_103_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "DEFER",
+        "correct_decisive": 0,
+        "defer": 1,
+        "parse_error": null,
+        "trial_id": "wine_107_absent_control|ABSENT",
+        "valid_response": true,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      },
+      {
+        "category": "MALFORMED",
+        "correct_decisive": 0,
+        "defer": 0,
+        "parse_error": "invalid_json",
+        "trial_id": "wine_109_absent_control|ABSENT",
+        "valid_response": false,
+        "wrong_approval": 0,
+        "wrong_rejection": 0
+      }
+    ],
+    "unjustified_approval": 3
+  },
+  "base_clusters": 8,
+  "by_treatment_and_fault": [
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 24,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 0
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "clean",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T0"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "selection_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T0"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "row_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T0"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "combined",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T0"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 24,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 0
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "clean",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T1"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "selection_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T1"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "row_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T1"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "combined",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T1"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 24,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 0
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "clean",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T2"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "selection_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T2"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "row_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T2"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "combined",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T2"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 24,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 0
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "clean",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T3"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "selection_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T3"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "row_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T3"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "combined",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T3"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 24,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 0
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "clean",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T4"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "selection_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T4"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "row_only",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T4"
+    },
+    {
+      "correct_decisive": 24,
+      "decisions": {
+        "APPROVE": 0,
+        "DEFER": 0,
+        "MALFORMED": 0,
+        "MISSING": 0,
+        "REJECT": 24
+      },
+      "deferrals": 0,
+      "false_approvals": 0,
+      "false_rejections": 0,
+      "fault_condition": "combined",
+      "planned": 24,
+      "response_valid_count": 24,
+      "treatment": "T4"
+    }
+  ],
+  "by_treatment_and_stratum": [
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 24,
+      "stratum": "clean",
+      "treatment": "T0",
+      "valid_responses": 24
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 72,
+      "stratum": "invalid",
+      "treatment": "T0",
+      "valid_responses": 72
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 24,
+      "stratum": "clean",
+      "treatment": "T1",
+      "valid_responses": 24
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 72,
+      "stratum": "invalid",
+      "treatment": "T1",
+      "valid_responses": 72
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 24,
+      "stratum": "clean",
+      "treatment": "T2",
+      "valid_responses": 24
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 72,
+      "stratum": "invalid",
+      "treatment": "T2",
+      "valid_responses": 72
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 24,
+      "stratum": "clean",
+      "treatment": "T3",
+      "valid_responses": 24
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 72,
+      "stratum": "invalid",
+      "treatment": "T3",
+      "valid_responses": 72
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 24,
+      "stratum": "clean",
+      "treatment": "T4",
+      "valid_responses": 24
+    },
+    {
+      "correct_decisive_rate_ITT": 1.0,
+      "deferral_rate_ITT": 0.0,
+      "false_approval_rate_ITT": 0.0,
+      "false_rejection_rate_ITT": 0.0,
+      "malformed_or_missing_rate": 0.0,
+      "n_planned": 72,
+      "stratum": "invalid",
+      "treatment": "T4",
+      "valid_responses": 72
+    }
+  ],
+  "cluster_balance_rows": [
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "iris",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 101
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "iris",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 103
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "iris",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 107
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "iris",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 109
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "wine",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 101
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "wine",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 103
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "wine",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 107
+    },
+    {
+      "balanced_correct_decisive": {
+        "T0": 1.0,
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 1.0,
+        "T4": 1.0
+      },
+      "family": "wine",
+      "primary_T2_minus_T4": 0.0,
+      "primary_T3_minus_T4": 0.0,
+      "seed": 109
+    }
+  ],
+  "notes": [
+    "480 calls are not 480 independent samples",
+    "Reference verdict is explicitly supplied in the trusted record",
+    "Cluster percentile intervals unstable with only four clusters per family",
+    "No significance tests or mechanism claims"
+  ],
+  "observed_controls": 8,
+  "observed_main": 480,
+  "planned_controls": 8,
+  "planned_main": 480,
+  "primary_clustered_effects": {
+    "T2_minus_T4": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_stratified_cluster_95pct": [
+        0.0,
+        0.0
+      ],
+      "family_separated": {
+        "iris": 0.0,
+        "wine": 0.0
+      },
+      "individual_clusters": {
+        "iris_101": 0.0,
+        "iris_103": 0.0,
+        "iris_107": 0.0,
+        "iris_109": 0.0,
+        "wine_101": 0.0,
+        "wine_103": 0.0,
+        "wine_107": 0.0,
+        "wine_109": 0.0
+      },
+      "point_estimate": 0.0
+    },
+    "T3_minus_T4": {
+      "bootstrap_replicates": 10000,
+      "bootstrap_stratified_cluster_95pct": [
+        0.0,
+        0.0
+      ],
+      "family_separated": {
+        "iris": 0.0,
+        "wine": 0.0
+      },
+      "individual_clusters": {
+        "iris_101": 0.0,
+        "iris_103": 0.0,
+        "iris_107": 0.0,
+        "iris_109": 0.0,
+        "wine_101": 0.0,
+        "wine_103": 0.0,
+        "wine_107": 0.0,
+        "wine_109": 0.0
+      },
+      "point_estimate": 0.0
+    }
+  },
+  "response_valid_sensitivity": {
+    "T0": {
+      "balanced_correct_rate_complete_clusters": 1.0,
+      "complete_base_clusters": 8
+    },
+    "T1": {
+      "balanced_correct_rate_complete_clusters": 1.0,
+      "complete_base_clusters": 8
+    },
+    "T2": {
+      "balanced_correct_rate_complete_clusters": 1.0,
+      "complete_base_clusters": 8
+    },
+    "T3": {
+      "balanced_correct_rate_complete_clusters": 1.0,
+      "complete_base_clusters": 8
+    },
+    "T4": {
+      "balanced_correct_rate_complete_clusters": 1.0,
+      "complete_base_clusters": 8
+    }
+  },
+  "status": "LIVE_RESPONSES_ANALYZED",
+  "study": "FEMI-1",
+  "usage": {
+    "api_reported_cost_sum_if_available": 0.041567042,
+    "completion_tokens": 119083,
+    "num_cost_reported": 488,
+    "prompt_tokens": 148115
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "n_trials": 864,
+  "reported_providers": {
+    "Groq": 576,
+    "Google AI Studio": 288
+  },
+  "n_distinct_reported_system_fingerprints": 39,
+  "summary": {
+    "cnli|gemini_3_flash_google_ai_studio|absent|conditional": {
+      "n": 15,
+      "unsupported_decisive": 13,
+      "correct": 2,
+      "reference_concordant_unauthorized": 6,
+      "reference_contradicting_approval": 2,
+      "invalid": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|absent|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 15,
+      "correct": 0,
+      "reference_concordant_unauthorized": 7,
+      "reference_contradicting_approval": 3,
+      "invalid": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|present|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 8,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|present|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 8,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|substitution|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 15,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gemini_3_flash_google_ai_studio|substitution|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 10,
+      "correct": 5,
+      "reference_concordant_unauthorized": 5,
+      "reference_contradicting_approval": 1,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 15,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 4,
+      "correct": 11,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 2,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 10,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 10,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|conditional": {
+      "n": 15,
+      "unsupported_decisive": 3,
+      "correct": 12,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 1,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 5,
+      "correct": 10,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 3,
+      "invalid": 0
+    },
+    "cnli|llama_3_3_70b_groq|absent|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 15,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|llama_3_3_70b_groq|absent|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 1,
+      "correct": 14,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|llama_3_3_70b_groq|present|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 11,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|llama_3_3_70b_groq|present|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 11,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|llama_3_3_70b_groq|substitution|conditional": {
+      "n": 15,
+      "unsupported_decisive": 0,
+      "correct": 13,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 2
+    },
+    "cnli|llama_3_3_70b_groq|substitution|presupposed": {
+      "n": 15,
+      "unsupported_decisive": 1,
+      "correct": 12,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 0,
+      "invalid": 2
+    },
+    "feverous|gemini_3_flash_google_ai_studio|absent|conditional": {
+      "n": 33,
+      "unsupported_decisive": 23,
+      "correct": 10,
+      "reference_concordant_unauthorized": 13,
+      "reference_contradicting_approval": 1,
+      "invalid": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|absent|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 30,
+      "correct": 2,
+      "reference_concordant_unauthorized": 16,
+      "reference_contradicting_approval": 4,
+      "invalid": 1
+    },
+    "feverous|gemini_3_flash_google_ai_studio|present|conditional": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 26,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|present|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 25,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|substitution|conditional": {
+      "n": 33,
+      "unsupported_decisive": 5,
+      "correct": 28,
+      "reference_concordant_unauthorized": 3,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gemini_3_flash_google_ai_studio|substitution|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 13,
+      "correct": 20,
+      "reference_concordant_unauthorized": 8,
+      "reference_contradicting_approval": 1,
+      "invalid": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|absent|conditional": {
+      "n": 33,
+      "unsupported_decisive": 1,
+      "correct": 32,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|absent|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 14,
+      "correct": 18,
+      "reference_concordant_unauthorized": 6,
+      "reference_contradicting_approval": 2,
+      "invalid": 1
+    },
+    "feverous|gpt_oss_120b_groq_anchor|present|conditional": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 26,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|present|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 26,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|substitution|conditional": {
+      "n": 33,
+      "unsupported_decisive": 2,
+      "correct": 31,
+      "reference_concordant_unauthorized": 2,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|gpt_oss_120b_groq_anchor|substitution|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 13,
+      "correct": 20,
+      "reference_concordant_unauthorized": 7,
+      "reference_contradicting_approval": 2,
+      "invalid": 0
+    },
+    "feverous|llama_3_3_70b_groq|absent|conditional": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 32,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 1
+    },
+    "feverous|llama_3_3_70b_groq|absent|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 33,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|llama_3_3_70b_groq|present|conditional": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 16,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|llama_3_3_70b_groq|present|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 19,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "feverous|llama_3_3_70b_groq|substitution|conditional": {
+      "n": 33,
+      "unsupported_decisive": 0,
+      "correct": 32,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 1
+    },
+    "feverous|llama_3_3_70b_groq|substitution|presupposed": {
+      "n": 33,
+      "unsupported_decisive": 2,
+      "correct": 30,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 1,
+      "invalid": 1
+    }
+  },
+  "case_cluster_contrasts": {
+    "cnli|gemini_3_flash_google_ai_studio|absent": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.13333333333333333,
+      "cluster_bootstrap_95pct": [
+        0.0,
+        0.3333333333333333
+      ]
+    },
+    "cnli|gemini_3_flash_google_ai_studio|substitution": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.6666666666666666,
+      "cluster_bootstrap_95pct": [
+        0.4,
+        0.8666666666666667
+      ]
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.26666666666666666,
+      "cluster_bootstrap_95pct": [
+        0.06666666666666667,
+        0.5333333333333333
+      ]
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.13333333333333333,
+      "cluster_bootstrap_95pct": [
+        -0.2,
+        0.4666666666666667
+      ]
+    },
+    "cnli|llama_3_3_70b_groq|absent": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.06666666666666667,
+      "cluster_bootstrap_95pct": [
+        0.0,
+        0.2
+      ]
+    },
+    "cnli|llama_3_3_70b_groq|substitution": {
+      "n_cases": 15,
+      "presupposed_minus_conditional": 0.06666666666666667,
+      "cluster_bootstrap_95pct": [
+        0.0,
+        0.2
+      ]
+    },
+    "feverous|gemini_3_flash_google_ai_studio|absent": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.21212121212121213,
+      "cluster_bootstrap_95pct": [
+        0.030303030303030304,
+        0.3939393939393939
+      ]
+    },
+    "feverous|gemini_3_flash_google_ai_studio|substitution": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.24242424242424243,
+      "cluster_bootstrap_95pct": [
+        0.09090909090909091,
+        0.3939393939393939
+      ]
+    },
+    "feverous|gpt_oss_120b_groq_anchor|absent": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.3939393939393939,
+      "cluster_bootstrap_95pct": [
+        0.21212121212121213,
+        0.5757575757575758
+      ]
+    },
+    "feverous|gpt_oss_120b_groq_anchor|substitution": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.3333333333333333,
+      "cluster_bootstrap_95pct": [
+        0.18181818181818182,
+        0.5151515151515151
+      ]
+    },
+    "feverous|llama_3_3_70b_groq|absent": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.0,
+      "cluster_bootstrap_95pct": [
+        0.0,
+        0.0
+      ]
+    },
+    "feverous|llama_3_3_70b_groq|substitution": {
+      "n_cases": 33,
+      "presupposed_minus_conditional": 0.06060606060606061,
+      "cluster_bootstrap_95pct": [
+        0.0,
+        0.15151515151515152
+      ]
+    }
+  },
+  "caveats": [
+    "These are new task wrappers, not direct replicates of FEMI-2.",
+    "FEVEROUS trusted packets are oracle-selected gold evidence; do not claim independent retrieval.",
+    "cited_evidence length is NOT a faithful-support classifier. Human attribution audit required."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "n_trials": 288,
+  "reported_providers": {
+    "Groq": 288
+  },
+  "n_distinct_reported_system_fingerprints": 40,
+  "summary": {
+    "cnli|gpt_oss_120b_groq_anchor|absent|conditional": {
+      "n": 48,
+      "unsupported_decisive": 1,
+      "correct": 47,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|absent|presupposed": {
+      "n": 48,
+      "unsupported_decisive": 18,
+      "correct": 30,
+      "reference_concordant_unauthorized": 6,
+      "reference_contradicting_approval": 2,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|conditional": {
+      "n": 48,
+      "unsupported_decisive": 0,
+      "correct": 38,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|present|presupposed": {
+      "n": 48,
+      "unsupported_decisive": 0,
+      "correct": 37,
+      "reference_concordant_unauthorized": 0,
+      "reference_contradicting_approval": 0,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|conditional": {
+      "n": 48,
+      "unsupported_decisive": 6,
+      "correct": 42,
+      "reference_concordant_unauthorized": 1,
+      "reference_contradicting_approval": 1,
+      "invalid": 0
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution|presupposed": {
+      "n": 48,
+      "unsupported_decisive": 16,
+      "correct": 32,
+      "reference_concordant_unauthorized": 9,
+      "reference_contradicting_approval": 4,
+      "invalid": 0
+    }
+  },
+  "case_cluster_contrasts": {
+    "cnli|gpt_oss_120b_groq_anchor|absent": {
+      "n_cases": 48,
+      "presupposed_minus_conditional": 0.3541666666666667,
+      "cluster_bootstrap_95pct": [
+        0.20833333333333334,
+        0.5
+      ]
+    },
+    "cnli|gpt_oss_120b_groq_anchor|substitution": {
+      "n_cases": 48,
+      "presupposed_minus_conditional": 0.20833333333333334,
+      "cluster_bootstrap_95pct": [
+        0.041666666666666664,
+        0.375
+      ]
+    }
+  },
+  "caveats": [
+    "These are new task wrappers, not direct replicates of FEMI-2.",
+    "FEVEROUS trusted packets are oracle-selected gold evidence; do not claim independent retrieval.",
+    "cited_evidence length is NOT a faithful-support classifier. Human attribution audit required."
+  ]
+}

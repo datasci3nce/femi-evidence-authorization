@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use FEMI, please cite the accompanying research report."
+title: "When AI Auditors Decide Without Evidence: Code and Evidence"
+authors:
+  - family-names: Mariappan
+    given-names: Kishore Kumar
+date-released: 2026-11-09
+type: software

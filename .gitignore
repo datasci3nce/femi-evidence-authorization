@@ -1,0 +1,23 @@
+# Secrets and downloaded datasets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*token*
+**/cases_PRIVATE.jsonl
+**/*KEEP_PRIVATE*
+**/*BLIND*PRIVATE*
+raw/
+private/
+restricted/
+*.log
+*.sqlite
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+*.egg-info/

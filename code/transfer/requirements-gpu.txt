@@ -1,0 +1,5 @@
+# Only for the d1 local GPU experiment; follow the official Liquid d1 model card.
+transformers>=5.14
+torch
+torchvision
+pillow

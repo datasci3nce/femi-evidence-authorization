@@ -1,0 +1,12 @@
+{
+  "python": "3.13.5",
+  "scikit_learn": "1.8.0",
+  "numpy": "2.3.5",
+  "classification_families": [
+    "iris",
+    "wine"
+  ],
+  "case_status": "32 EXECUTED AND VERIFIED",
+  "live_inference": "NOT RUN",
+  "externally_timestamped_preregistration": "NOT YET"
+}

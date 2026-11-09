@@ -1,0 +1,5 @@
+{
+  "models": [
+    {"name":"gpt_oss_120b_groq_anchor", "model_id":"openai/gpt-oss-120b", "provider":{"order":["Groq"],"allow_fallbacks":false}}
+  ]
+}

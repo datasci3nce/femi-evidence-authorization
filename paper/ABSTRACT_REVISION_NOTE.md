@@ -1,0 +1,1 @@
+The report abstract was rewritten as a narrative summary on 9 November 2026. It explicitly mentions attempted incident record manipulation (not proven successful rewriting of the central message board). Data, body text, figures and claims are unchanged.

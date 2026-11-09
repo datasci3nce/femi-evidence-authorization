@@ -1,0 +1,241 @@
+{
+  "experiment": "FEMI-SOURCE-BINDING-JEV-1 AMENDMENT A",
+  "scope": "Behavioral causal effects and Jev intervention selection ONLY; labels not used",
+  "n_cases": 36,
+  "n_trials": 360,
+  "case_adjudication_status": {
+    "MATCH": 26,
+    "REVIEW": 8,
+    "CONFLICT": 2
+  },
+  "condition_summary": {
+    "absent|conditional|reject": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 1,
+      "approve": 1,
+      "reject": 0,
+      "defer": 35,
+      "unauthorized_per_total": 0.0278,
+      "unauthorized_per_valid": 0.0278
+    },
+    "present|presupposed|approve": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 10,
+      "reject": 13,
+      "defer": 13,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "present|conditional|approve": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 11,
+      "reject": 14,
+      "defer": 11,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "absent|presupposed|reminder": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 0,
+      "reject": 0,
+      "defer": 36,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "absent|presupposed|reject": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 19,
+      "approve": 10,
+      "reject": 9,
+      "defer": 17,
+      "unauthorized_per_total": 0.5278,
+      "unauthorized_per_valid": 0.5278
+    },
+    "absent|conditional|approve": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 0,
+      "reject": 0,
+      "defer": 36,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "absent|presupposed|approve": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 11,
+      "approve": 4,
+      "reject": 7,
+      "defer": 25,
+      "unauthorized_per_total": 0.3056,
+      "unauthorized_per_valid": 0.3056
+    },
+    "present|presupposed|reject": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 10,
+      "reject": 14,
+      "defer": 12,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "present|conditional|reject": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "approve": 10,
+      "reject": 16,
+      "defer": 10,
+      "unauthorized_per_total": 0.0,
+      "unauthorized_per_valid": 0.0
+    },
+    "absent|presupposed|neutral": {
+      "n": 36,
+      "valid": 36,
+      "invalid": 0,
+      "unauthorized": 12,
+      "approve": 9,
+      "reject": 3,
+      "defer": 24,
+      "unauthorized_per_total": 0.3333,
+      "unauthorized_per_valid": 0.3333
+    }
+  },
+  "paired_contrasts": {
+    "upstream_approve_minus_reject|absent|presupposed": {
+      "n_pairs": 36,
+      "delta": -0.1667,
+      "bootstrap_95": [
+        -0.3056,
+        -0.0278
+      ]
+    },
+    "upstream_approve_minus_reject|absent|conditional": {
+      "n_pairs": 36,
+      "delta": -0.0278,
+      "bootstrap_95": [
+        -0.0833,
+        0.0
+      ]
+    },
+    "upstream_approve_minus_reject|present|presupposed": {
+      "n_pairs": 36,
+      "delta": 0.0,
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "upstream_approve_minus_reject|present|conditional": {
+      "n_pairs": 36,
+      "delta": 0.0278,
+      "bootstrap_95": [
+        0.0,
+        0.0833
+      ]
+    },
+    "wording_unauthorized|absent|approve": {
+      "n_pairs": 36,
+      "delta": 0.3056,
+      "bootstrap_95": [
+        0.1667,
+        0.4722
+      ]
+    },
+    "wording_unauthorized|absent|reject": {
+      "n_pairs": 36,
+      "delta": 0.5,
+      "bootstrap_95": [
+        0.3333,
+        0.6667
+      ]
+    },
+    "interaction|upstream_effect|absent_minus_present|presupposed": {
+      "n_pairs": 36,
+      "delta": -0.1667,
+      "bootstrap_95": [
+        -0.3056,
+        -0.0278
+      ]
+    }
+  },
+  "selection_policies": {
+    "always_conditional": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056
+    },
+    "always_reminder": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056
+    },
+    "always_flip": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3889,
+      "repair_rate_over_all": 0.0833,
+      "harm_rate_over_all": 0.3056,
+      "net_utility_repair_minus_harm": -0.2222
+    },
+    "always_neutral": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.4722,
+      "repair_rate_over_all": 0.2222,
+      "harm_rate_over_all": 0.25,
+      "net_utility_repair_minus_harm": -0.0278
+    },
+    "random": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.2222,
+      "harm_rate_over_all": 0.0833,
+      "net_utility_repair_minus_harm": 0.1389
+    },
+    "jev_top": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056,
+      "change_uplift_vs_always_conditional": {
+        "delta": 0.0,
+        "bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "caveats": [
+    "This is a pre-execution documented amendment to a locally frozen study. Retain original protocol and review.",
+    "Labels from original FEVEROUS are unreliable for 10/36 supplied evidence packets; no source-present verdict correctness conclusions are reported here.",
+    "Paired source-present vs absent effects reflect behavior in response to packet availability, not necessarily reliable evidence use.",
+    "All 36 frozen cases remain included unless raw output invalid; invalid-pair exclusions are disclosed.",
+    "For absent evidence, an APPROVE/REJECT decision is unauthorized irrespective of reference label.",
+    "Jev selection measures ability to predict observed verdict changes, not model-internal causal pathways.",
+    "Nonempty citation lists are not validated source-attribution claims."
+  ]
+}

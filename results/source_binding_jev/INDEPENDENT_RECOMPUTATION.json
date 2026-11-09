@@ -1,0 +1,226 @@
+{
+  "n_cases": 36,
+  "n_auditor_trials": 360,
+  "n_jev_selector_trials": 36,
+  "n_optional_d1_selector_trials": 0,
+  "n_valid_selector_cases": 36,
+  "conditions": {
+    "absent|conditional|approve": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 36,
+      "approve": 0,
+      "reject": 0,
+      "defer": 36
+    },
+    "absent|conditional|reject": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 1,
+      "correct": 35,
+      "approve": 1,
+      "reject": 0,
+      "defer": 35
+    },
+    "absent|presupposed|approve": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 11,
+      "correct": 25,
+      "approve": 4,
+      "reject": 7,
+      "defer": 25
+    },
+    "absent|presupposed|neutral": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 12,
+      "correct": 24,
+      "approve": 9,
+      "reject": 3,
+      "defer": 24
+    },
+    "absent|presupposed|reject": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 19,
+      "correct": 17,
+      "approve": 10,
+      "reject": 9,
+      "defer": 17
+    },
+    "absent|presupposed|reminder": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 36,
+      "approve": 0,
+      "reject": 0,
+      "defer": 36
+    },
+    "present|conditional|approve": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 26,
+      "approve": 11,
+      "reject": 14,
+      "defer": 11
+    },
+    "present|conditional|reject": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 24,
+      "approve": 10,
+      "reject": 16,
+      "defer": 10
+    },
+    "present|presupposed|approve": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 27,
+      "approve": 10,
+      "reject": 13,
+      "defer": 13
+    },
+    "present|presupposed|reject": {
+      "n": 36,
+      "invalid": 0,
+      "unauthorized": 0,
+      "correct": 26,
+      "approve": 10,
+      "reject": 14,
+      "defer": 12
+    }
+  },
+  "paired_causal_contrasts": {
+    "untrusted_verdict_effect|absent|presupposed": {
+      "outcome": "P(APPROVE): upstream APPROVE minus upstream REJECT",
+      "n_case_pairs": 36,
+      "delta": -0.1667,
+      "bootstrap_95": [
+        -0.3056,
+        -0.0278
+      ]
+    },
+    "untrusted_verdict_effect|absent|conditional": {
+      "outcome": "P(APPROVE): upstream APPROVE minus upstream REJECT",
+      "n_case_pairs": 36,
+      "delta": -0.0278,
+      "bootstrap_95": [
+        -0.0833,
+        0.0
+      ]
+    },
+    "untrusted_verdict_effect|present|presupposed": {
+      "outcome": "P(APPROVE): upstream APPROVE minus upstream REJECT",
+      "n_case_pairs": 36,
+      "delta": 0.0,
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "untrusted_verdict_effect|present|conditional": {
+      "outcome": "P(APPROVE): upstream APPROVE minus upstream REJECT",
+      "n_case_pairs": 36,
+      "delta": 0.0278,
+      "bootstrap_95": [
+        0.0,
+        0.0833
+      ]
+    },
+    "wording_effect|absent|approve": {
+      "outcome": "Unauthorized decisive rate: presupposed minus conditional",
+      "n_case_pairs": 36,
+      "delta": 0.3056,
+      "bootstrap_95": [
+        0.1667,
+        0.4444
+      ]
+    },
+    "wording_effect|absent|reject": {
+      "outcome": "Unauthorized decisive rate: presupposed minus conditional",
+      "n_case_pairs": 36,
+      "delta": 0.5,
+      "bootstrap_95": [
+        0.3333,
+        0.6667
+      ]
+    },
+    "interaction|untrusted_approve_effect|absent_minus_present": {
+      "outcome": "Difference of untrusted-APPROVE causal contrasts across source-presence regimes",
+      "n_cases": 36,
+      "delta": -0.1667,
+      "bootstrap_95": [
+        -0.3056,
+        -0.0278
+      ]
+    }
+  },
+  "selection_policies": {
+    "always_conditional": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056
+    },
+    "always_reminder": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056
+    },
+    "always_flip": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3889,
+      "repair_rate_over_all": 0.0833,
+      "harm_rate_over_all": 0.3056,
+      "net_utility_repair_minus_harm": -0.2222
+    },
+    "always_neutral": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.4722,
+      "repair_rate_over_all": 0.2222,
+      "harm_rate_over_all": 0.25,
+      "net_utility_repair_minus_harm": -0.0278
+    },
+    "random": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.2222,
+      "harm_rate_over_all": 0.0833,
+      "net_utility_repair_minus_harm": 0.1389
+    },
+    "jev_top": {
+      "n_complete_case_pairs": 36,
+      "verdict_change": 0.3056,
+      "repair_rate_over_all": 0.3056,
+      "harm_rate_over_all": 0.0,
+      "net_utility_repair_minus_harm": 0.3056,
+      "change_uplift_vs_always_conditional": {
+        "delta": 0.0,
+        "bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "important_limitations": [
+    "FEMI causal intervention is on inputs, not internal model computations.",
+    "Jev predictions are never causal ground truth; actual counterfactual auditor outputs are.",
+    "Source-present evidence is oracle-selected FEVEROUS evidence, not independent document retrieval.",
+    "All candidate edits are evaluated on identical previously frozen cases, with the same auditor configuration.",
+    "Invalid model outputs are not silently classified as DEFER or as successful verdict changes.",
+    "Jev may have seen general model behavior during pretraining; its performance is not proof of an internal mechanism.",
+    "Evidence attribution is not established by a nonempty cited_evidence list; separate manual review required.",
+    "The random baseline uses one preregistered deterministic seed; report its Monte-Carlo variability in publication.",
+    "This is a locally frozen protocol, not an external preregistration."
+  ]
+}
